@@ -23,7 +23,7 @@ def composition(a,b):
     for i in a:
         result=result*b[int(i)]
     return result
-
+    a.close()
 print (composition(a,s))
 
 
