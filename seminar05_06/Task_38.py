@@ -14,9 +14,10 @@ text='рапааисим фбварара абвгдх ваабвгр'
 print(text)
 tex=text.split()
 print(tex)
-for word in tex[:]:
-    if 'абв' in word:
-        tex.remove(word)
+# for word in tex[:]:
+#     if 'абв' in word:
+#         tex.remove(word)
+[tex.remove(word) for word in tex[:] if 'абв'in word]
 print(tex)
 
 
