@@ -17,7 +17,7 @@ def elements(n):
     return b
 print(elements(n))
 
-s= elements(n)
+s = elements(n)
 def composition(a,b):
     result=1
     for i in a:
