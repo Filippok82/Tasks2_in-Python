@@ -6,7 +6,8 @@ unique_num=[]
  
 def unique_list(numbers):
     for i in numbers:
-        if numbers.count(i)==1:
+        if numbers.count(i)==1: #Метод count() возвращает количество раз, когда указанный элемент появляется в списке.
+
             unique_num.append(i)
     return unique_num
 
